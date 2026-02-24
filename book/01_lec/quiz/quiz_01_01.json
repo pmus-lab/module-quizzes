@@ -1,0 +1,200 @@
+[
+  {
+    "question": "Big data refers specifically to data situations in which the number of … is very large",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "predictors",
+        "correct": true,
+        "feedback": "Correct! Big data often refers to 'high-dimensional' data, or p > n."
+      },
+      {
+        "answer": "observations",
+        "correct": false,
+        "feedback": "Incorrect. While many observations (n) is good, 'big data' specifically refers to a large number of predictors (p)."
+      }
+    ]
+  },
+  {
+    "question": "In Machine learning, the rules that eventually map answers to the data are …",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "specified by us when creating the algorithm",
+        "correct": false,
+        "feedback": "Incorrect. This describes a traditional rules-based program."
+      },
+      {
+        "answer": "learned by the algorithm in iterations",
+        "correct": true,
+        "feedback": "Correct! The algorithm learns the mapping (the 'rules') from the training data."
+      }
+    ]
+  },
+{
+    "question": "Predictors (X) are also called … ",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "Dependent variables",
+        "correct": false,
+        "feedback": "Incorrect. Dependent variables are outcomes (Y)."
+      },
+      {
+        "answer": "Targets",
+        "correct": false,
+        "feedback": "Incorrect. Targets are outcomes (Y)."
+      },
+      {
+        "answer": "Outputs",
+        "correct": false,
+        "feedback": "Incorrect. Outputs are outcomes (Y)."
+      },
+      {
+        "answer": "Features",
+        "correct": true,
+        "feedback": "Correct! This is a very common term for X in machine learning."
+      }
+    ]
+  },
+  {
+    "question": "Machine learning is …",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "a subfield of Artificial intelligence",
+        "correct": true,
+        "feedback": "Correct! AI is the broad field, and ML is a subfield of AI."
+      },
+      {
+        "answer": "a subfield of Deep Learning",
+        "correct": false,
+        "feedback": "Incorrect. It's the other way around: Deep Learning is a subfield of Machine Learning."
+      },
+      {
+        "answer": "a synonym of Artificial intelligence",
+        "correct": false,
+        "feedback": "Incorrect. AI is a much broader concept that includes non-learning-based approaches."
+      },
+      {
+        "answer": "a synonym of Deep Learning",
+        "correct": false,
+        "feedback": "Incorrect. Deep Learning is a specific, more complex subfield of Machine Learning."
+      }
+    ]
+  },
+  {
+    "question": "Classification algorithms are …",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "a type of unsupervised learning",
+        "correct": false,
+        "feedback": "Incorrect. Classification requires labeled data, so it is supervised."
+      },
+      {
+        "answer": "a subtype of dimension reduction",
+        "correct": false,
+        "feedback": "Incorrect. Dimension reduction is used to summarize a large number of predictors in a smaller number of components, while classification aims to predict qualitative outcomes given the predictors." 
+      },
+      {
+        "answer": "used to predict quantitative outcomes when labeled training data does exist",
+        "correct": false,
+        "feedback": "Incorrect. That is called regression."
+      },
+      {
+        "answer": "used to predict quantitative outcomes when labeled training data does not exist",
+        "correct": false,
+        "feedback": "Incorrect. Classification predicts qualitative outcomes, not quantitative. Additionally, classification requires labeled data."
+      },
+      {
+        "answer": "used to predict qualitative outcomes when labeled training data does not exist",
+        "correct": false,
+        "feedback": "Incorrect. This describes clustering (unsupervised). Classification needs labeled data."
+      },
+      {
+        "answer": "used to predict qualitative outcomes when labeled training data does exist",
+        "correct": true,
+        "feedback": "Correct! This is the definition of classification."
+      }
+    ]
+  },
+  {
+    "question": "In unsupervised learning, we pass …",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "unlabeled data to an algorithm",
+        "correct": true,
+        "feedback": "Correct! Unsupervised learning finds patterns in data without a predefined outcome label."
+      },
+      {
+        "answer": "labeled data to an algorithm",
+        "correct": false,
+        "feedback": "Incorrect. This is the definition of supervised learning."
+      }
+    ]
+  },
+  {
+    "question": "Outcomes (Y) are also called … (Select all that apply)",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "Features",
+        "correct": false,
+        "feedback": "Incorrect. Features are predictors (X)."
+      },
+      {
+        "answer": "Independent variables",
+        "correct": false,
+        "feedback": "Incorrect. Independent variables are predictors (X)."
+      },
+      {
+        "answer": "Regressors",
+        "correct": false,
+        "feedback": "Incorrect. Regressors are predictors (X)."
+      },
+      {
+        "answer": "Targets",
+        "correct": true,
+        "feedback": "Correct! This is a common term for Y."
+      },
+      {
+        "answer": "Predictors",
+        "correct": false,
+        "feedback": "Incorrect. Predictors are the inputs (X)."
+      },
+      {
+        "answer": "Responses",
+        "correct": true,
+        "feedback": "Correct! This is a common term for Y."
+      }
+    ]
+  },
+  {
+    "question": "In classification, it is possible that … (Select all that apply)",
+    "type": "many_choice",
+    "answers": [
+      {
+        "answer": "both the predictors and the outcome are quantitative",
+        "correct": false,
+        "feedback": "Incorrect. This describes regression."
+      },
+      {
+        "answer": "both the predictors and the outcome are qualitative",
+        "correct": true,
+        "feedback": "Correct! This is possible (e.g., Naive Bayes with categorical features)."
+      },
+      {
+        "answer": "the predictors are quantitative, and the outcome is qualitative",
+        "correct": true,
+        "feedback": "Correct! This is the most common classification setup (e.g., Logistic Regression)."
+      },
+      {
+        "answer": "the predictors are qualitative, and the outcome is quantitative",
+        "correct": false,
+        "feedback": "Incorrect. A quantitative outcome defines a regression problem."
+      }
+    ]
+  }
+]
